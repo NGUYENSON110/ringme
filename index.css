@@ -22,17 +22,19 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 1360px;
+    height: 1378px;
     background-image: url('./image/backgroundhesinhthai.png') !important;
+    
 }
 .ringme_image_hesinhthai{
     width: 992px;
     height: 524px;
+    margin-top: 20px;
     /* background-image: url('./image/backgroundhesinhthai.png') !important; */
 }
 
 .ringme_image_customer{
-    width: 993px;
+    width: 100%;
     height: 524px;
 }
 .ringme_image_contact{
@@ -69,25 +71,35 @@
 .ringme-container_category{
     margin-top: 100px;
     text-align: center;
-    justify-content: center;
-    /* display: flex; */
-    
+    justify-content: space-between;
+    /* background-color: red; */
+    display: flex;
+    justify-items: center;
 }
+
 .ringme-container_category_listitem{
     display: flex;
     justify-content: center;
     /* text-align: center; */
     /* background-color: red; */
-    width: 66%;
-    margin-left: 250px;
+    
 }
 .ringme-container_category_item{
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Montserrat';
+    color: #FFFFFF !important;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 14px;
+    font-family: 'Montserrat';
     padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.ringme-container_category_item_details{
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
 }
 .ringme-container_category_item active{
     background-color: red;
@@ -102,6 +114,73 @@
 }
 .btn{
     background-color:#FFFFFF;
-    color: #59B74B;
+    color: #59B74B !important;
     
+}
+.khachhang{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.ringme-container_contact{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 580px;
+    background-image: url('./image/map.png') !important;
+    background-size: contain;
+    margin-top: 100px;
+    position: relative;
+}
+.ringme_image_lienhe{
+    width: 75%;
+    height: 210px;
+}
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 480px;
+  height: 446px;
+  margin: 0 auto;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+}
+input[type="noidung"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 120px;
+    
+}
+
+input[type="submit"] {
+  background-color: #59B74B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 208px;
+  height: 40px;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #59B74B;
 }
