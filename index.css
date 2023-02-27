@@ -1,3 +1,8 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+/* font-family: 'Roboto Mono', monospace; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+}
 .ringme_logo{
     width: 200px;
     height: 46px;
@@ -24,7 +29,7 @@
     width: 100%;
     height: 1378px;
     background-image: url('./image/backgroundhesinhthai.png') !important;
-    background-color: green;
+    
     
 }
 .ringme_image_hesinhthai{
@@ -37,6 +42,7 @@
 .ringme_image_customer{
     width: 100%;
     height: 524px;
+    object-fit: contain;
 }
 .ringme_image_contact{
     width: 100%;
@@ -48,6 +54,7 @@
 }
 .nav-link{
     color: #FFFFFF;
+    font-weight: 700;
 }
 .nav-link .active{
     color:#59B74B !important;
@@ -59,7 +66,8 @@
    
 }
 .nav-item :hover{
-    color:#59B74B !important;
+    color:#FFFFFF !important;
+    background-color: #59B74B;
 }
 
 .ringme-image-en{
@@ -135,6 +143,7 @@
 .ringme_image_lienhe{
     width: 75%;
     height: 210px;
+    object-fit: contain;
 }
 form {
   border: 1px solid #ccc;
@@ -184,4 +193,42 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #59B74B;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+    background-color: #FFFFFF;
+}
+th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+    font-size: 17px;
+    color:black
+}
+th {
+	background-color: #f2f2f2;
+}
+
+.form_name_company{
+    width: 100% !important;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.form_noidung_company{
+    width: 100% !important;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+    background-color: #FFFFFF;
+    text-align: left;
 }
