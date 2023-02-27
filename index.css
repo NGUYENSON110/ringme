@@ -232,3 +232,14 @@ th {
     background-color: #FFFFFF;
     text-align: left;
 }
+.form_address_company{
+    width: 100% !important;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+    background-color: #FFFFFF;
+    text-align: left;
+}
